@@ -4,6 +4,7 @@
 [ext_resource type="Script" path="res://Sprite2D.gd" id="2_ohptr"]
 
 [node name="Sprite2D" type="Sprite2D"]
-position = Vector2(614, 306)
+position = Vector2(581, 271.5)
+scale = Vector2(0.484375, 0.460938)
 texture = ExtResource("1_7gmu3")
 script = ExtResource("2_ohptr")

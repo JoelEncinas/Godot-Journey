@@ -35,7 +35,7 @@ func _process(delta):
 		$AnimatedSprite2D.flip_v = false
 		$AnimatedSprite2D.flip_h = velocity.x < 0
 	elif velocity.y != 0:
-		$AnimatedSprite2D.animation = "up"
+		$AnimatedSprite2D.aniation = "up"
 		$AnimatedSprite2D.flip_h = velocity.y > 0
 
 	if velocity.x < 0:

@@ -54,11 +54,10 @@ gravity_scale = 0.0
 script = ExtResource("1_bb67y")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(245, 365)
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_xvy5c")
 animation = &"swim"
-frame_progress = 0.189118
+frame_progress = 0.62191
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
